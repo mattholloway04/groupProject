@@ -1,0 +1,18 @@
+.navbar {
+  border: 2px solid black;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "homelink skillslink worklink contactslink";
+}
+.homelink {
+  grid-area: homelink;
+}
+.skillslink {
+  grid-area: skillslink;
+}
+.worklink {
+  grid-area: worklink;
+}
+.contactslink {
+  grid-area: contactslink;
+}
