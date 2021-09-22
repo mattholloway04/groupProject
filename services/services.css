@@ -1,0 +1,15 @@
+.center {
+  text-align: center;
+}
+.border {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  width: 50rem;
+}
+.navbar {
+  display: inline;
+  border: 2px solid black;
+  margin: 0rem 5rem 0rem 5rem;
+}
