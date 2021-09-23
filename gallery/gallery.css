@@ -1,0 +1,50 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "home gallery services order";
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.home {
+  grid-area: home;
+}
+.gallery {
+  grid-area: gallery;
+}
+.services {
+  grid-area: services;
+}
+.order {
+  grid-area: order;
+}
+
+.border {
+  display: grid;
+  border: 2px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "_blue bread stick bike fly";
+}
+div {
+  /* border: 2px solid rgb(91, 91, 91); */
+  color: black;
+  font-size: 20px;
+  margin: 2px;
+}
+._blue {
+  grid-area: _blue;
+}
+.bread {
+  grid-area: bread;
+}
+.stick {
+  grid-area: stick;
+}
+.bike {
+  grid-area: bike;
+}
+.fly {
+  grid-area: fly;
+}

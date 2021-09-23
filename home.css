@@ -1,18 +1,33 @@
-.navbar {
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "home gallery services order";
   border: 2px solid black;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "homelink skillslink worklink contactslink";
+  padding: 10px;
+  text-align: center;
 }
-.homelink {
-  grid-area: homelink;
+.home {
+  grid-area: home;
 }
-.skillslink {
-  grid-area: skillslink;
+.gallery {
+  grid-area: gallery;
 }
-.worklink {
-  grid-area: worklink;
+.services {
+  grid-area: services;
 }
-.contactslink {
-  grid-area: contactslink;
+.order {
+  grid-area: order;
+}
+.logo_ {
+  /* border: 2px solid black;*/
+  text-align: center;
+}
+.info {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.why {
+  text-align: center;
+  font-size: 50px;
 }
