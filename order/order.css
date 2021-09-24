@@ -1,3 +1,8 @@
+button {
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
 .sidediv {
   display: flex;
   flex-direction: row;

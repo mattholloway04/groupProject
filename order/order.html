@@ -9,7 +9,9 @@
   </head>
   <body>
     <div class="nav">
-      <a class="home" href="../index.html">&#127968; Homepage</a>
+      <form>
+      <button formaction="../index.html">Homepage</button>
+      </form>
       <a class="gallery" href="../gallery/gallery.html">&#128247; Gallery</a>
       <a class="services" href="../services/services.html"
         >&#128119; Services</a
@@ -50,6 +52,7 @@
         <label for="state"
           >State: <input name="state" type="text" placeholder="Arizona"
         /></label>
+        <br>
         <hr>
         <h2 class="center">Select Premade Products</h2>
         <div class="sidediv">
@@ -74,6 +77,15 @@
         </div>
         <br>
         <hr>
+        <h2 class="center">Payment Information</h2>
+        <p class="center">
+          <label for="cardnum">Card Number: <input type="text" name="cardnum" placeholder="1234 5678 9876 5432"></label>&nbsp;
+          <label for="expdate">Expiration Date: <input type="text" name="expdate" placeholder="10/24"></label>&nbsp;
+          <label for="cvv">CVV: <input type="text" name="cvv" placeholder="111">
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </p>
       </p>
     </div>
   </body>
