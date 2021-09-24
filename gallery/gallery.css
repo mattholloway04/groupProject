@@ -24,8 +24,12 @@
   display: grid;
   border: 2px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "_blue bread stick bike fly";
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "_blue bread stick bike fly"
+    "boot chair computer hammer drill"
+    "skate skate_2 door chair_2 light"
+    "bench toilet fan doll toilet_2";
 }
 div {
   /* border: 2px solid rgb(91, 91, 91); */
@@ -47,4 +51,53 @@ div {
 }
 .fly {
   grid-area: fly;
+}
+.work {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.boot {
+  grid-area: boot;
+}
+.chair {
+  grid-area: chair;
+}
+.computer {
+  grid-area: computer;
+}
+.hammer {
+  grid-area: hammer;
+}
+.drill {
+  grid-area: drill;
+}
+.stake {
+  grid-area: skate;
+}
+.stake_2 {
+  grid-area: skate_2;
+}
+.door {
+  grid-area: door;
+}
+.chair_2 {
+  grid-area: chair_2;
+}
+.light {
+  grid-area: light;
+}
+.bench {
+  grid-area: bench;
+}
+.toilet {
+  grid-area: toilet;
+}
+.fan {
+  grid-area: fan;
+}
+.doll {
+  grid-area: doll;
+}
+.toilet_2 {
+  grid-area: toilet_2;
 }
