@@ -1,6 +1,21 @@
+.sidediv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.fitem {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  height: 20rem;
+  border: 2px solid black;
+  border-radius: 10px;
+}
 .center {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  list-style-position: inside;
+  align-self: center;
 }
 .border {
   padding: 10px;
@@ -22,6 +37,16 @@
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+textarea {
+  resize: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
 }
 .home {
   grid-area: home;

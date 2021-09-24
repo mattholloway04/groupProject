@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "home gallery services order";
+  grid-template-areas: 'home gallery services order';
   border: 2px solid black;
   padding: 10px;
   text-align: center;

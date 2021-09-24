@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Order</title>
     <link rel="stylesheet" href="order.css" />
   </head>
   <body>
     <div class="nav">
       <a class="home" href="../index.html">&#127968; Homepage</a>
-      <a class="gallery" href="">&#128247; Gallery</a>
+      <a class="gallery" href="../gallery/gallery.html">&#128247; Gallery</a>
       <a class="services" href="../services/services.html"
         >&#128119; Services</a
       >
@@ -24,9 +24,56 @@
       <h2 class="center">Contact Information</h2>
       <p class="center">
         <label for="fname"
-          >First Name: <input name="fname" type="text"
+          >Name: <input name="fname" type="text" placeholder="Name"
         /></label>
-        <label for="lname">Last Name: <input name="lname" type="text" /></label>
+        &nbsp;
+        <label for="email"
+          >Email:
+          <input name="email" type="email" placeholder="12345@gmail.com"
+        /></label>
+        <br />
+        <br />
+        <label for="pass"
+          >Password: <input name="pass" type="password" placeholder="Password"
+        /></label>
+        &nbsp;
+        <label for="adrs"
+          >Address:
+          <input name="adrs" type="text" placeholder="1234 N. Street St."
+        /></label>
+        <br />
+        <br />
+        <label for="city"
+          >City: <input name="city" type="text" placeholder="Phoenix"
+        /></label>
+        &nbsp;
+        <label for="state"
+          >State: <input name="state" type="text" placeholder="Arizona"
+        /></label>
+        <hr>
+        <h2 class="center">Select Premade Products</h2>
+        <div class="sidediv">
+          <div class="fitem"><h2 class="center">Premade Products</h2><hr>
+            <p class="center">Please see gallery for images.</p>
+            <ul>
+              <li><input type="checkbox" name="breadshoe" id="premade"><label for="breadshoe"> Bread Shoe - $50</label></li>
+              <li><input type="checkbox" name="breadshoe" id="premade"><label for="breadshoe"> Pants Chair - $100</label></li>
+              <li><input type="checkbox" name="breadshoe" id="premade"><label for="breadshoe"> Helicopter Car - $10,000</label></li>
+              <li><input type="checkbox" name="breadshoe" id="premade"><label for="breadshoe"> Scooter Bike - $500</label></li>
+              <li><input type="checkbox" name="breadshoe" id="premade"><label for="breadshoe"> Boot Dog - $100</label></li>
+              <li><input type="checkbox" name="breadshoe" id="premade"><label for="breadshoe"> Drill Disco - $300</label></li>
+              <li><input type="checkbox" name="breadshoe" id="premade"><label for="breadshoe"> Toilet Carper Seat - $30</label></li>
+              <li><input type="checkbox" name="breadshoe" id="premade"><label for="breadshoe"> Showerhead Bidet - $50</label></li>
+              <li><input type="checkbox" name="breadshoe" id="premade"><label for="breadshoe"> Console Chair - $10,000</label></li>
+            </ul>
+          </div>
+
+          <div class="fitem"><h2 class="center">Custom Products</h2><hr>
+            <p class="center">Please list what kind of product you want.</p>
+          <textarea name="" id="" cols="30" rows="10"></textarea></div>
+        </div>
+        <br>
+        <hr>
       </p>
     </div>
   </body>
