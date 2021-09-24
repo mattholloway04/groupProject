@@ -1,10 +1,9 @@
-/* Add a black background color to the top navigation bar */
+/*
 .topnav {
   overflow: hidden;
   background-color: #e9e9e9;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -15,21 +14,20 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
   text-align: center;
 }
 
-/* Style the "active" element to highlight the current page */
+
 .topnav a.active {
   background-color: #2196f3;
   color: white;
   text-align: center;
 }
 
-/* Style the search box inside the navigation bar */
+
 .topnav input[type="text"] {
   float: right;
   padding: 6px;
@@ -38,19 +36,32 @@
   margin-right: 16px;
   font-size: 17px;
   text-align: center;
-}
+}*/
 
 .nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "home gallery services order";
+  grid-template-areas: 'home gallery services order';
   border: 2px solid black;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+}
+button {
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: rgb(189, 189, 189);
+}
+.center {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-position: inside;
+  align-self: center;
+  font-size: 50px;
 }
 .home {
   grid-area: home;
@@ -66,6 +77,10 @@
 }
 a {
   text-decoration: none;
+}
+.logo {
+  margin: 0rem auto 0rem auto;
+  width: 30rem;
 }
 .logo_ {
   /* border: 2px solid black;*/
