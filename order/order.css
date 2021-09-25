@@ -38,12 +38,8 @@ button {
 .nav {
   display: grid;
   position: fixed;
-<<<<<<< HEAD
-  width: 97.5%;
-=======
   top: 0.5rem;
   width: 97.3%;
->>>>>>> c4a92ef3515cef146a9f9b465ce4ab89b89a73a4
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 'home gallery services order';
