@@ -21,7 +21,7 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: 'home gallery services order';
+  grid-template-areas: "home gallery services order";
   border: 2px solid black;
   border-radius: 10px;
   padding: 10px;
@@ -43,4 +43,11 @@ button {
 }
 a {
   text-decoration: none;
+}
+.footer {
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
