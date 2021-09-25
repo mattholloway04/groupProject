@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: 'home gallery services order';
+  grid-template-areas: "home gallery services order";
   border: 2px solid black;
   border-radius: 10px;
   padding: 10px;
@@ -35,23 +35,26 @@ a {
 .border {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 22rem);
+  grid-template-rows: repeat(6, 22rem);
   grid-template-areas:
-    '_blue bread stick bike fly'
-    'boot chair computer hammer drill'
-    'skate skate_2 door chair_2 light'
-    'bench toilet fan doll toilet_2';
+    "_blue bread stick bike fly"
+    "boot chair computer hammer drill"
+    "skate skate_2 door chair_2 light"
+    "bench toilet fan doll toilet_2"
+    "wheels wheels wheels wheels wheels"
+    "wheels wheels wheels wheels wheels";
 }
 div {
   color: black;
   font-size: 20px;
-  margin: 2rem;
+
   border-radius: 20px;
 }
-div[class='border'] div {
+div[class="border"] div {
   border: 5px solid rgb(0, 0, 0);
   color: black;
   font-size: 20px;
+  margin: 2rem;
   border-radius: 10px;
 }
 img {
@@ -122,4 +125,32 @@ img {
 }
 .toilet_2 {
   grid-area: toilet_2;
+}
+.wheels {
+  grid-area: wheels;
+}
+.footer {
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 400px) {
+  .border {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 7rem) 11rem;
+    grid-template-areas:
+      "_blue bread stick bike fly"
+      "boot chair computer hammer drill"
+      "skate skate_2 door chair_2 light"
+      "bench toilet fan doll toilet_2"
+      "wheels wheels wheels wheels wheels"
+      "wheels wheels wheels wheels wheels";
+  }
+  div[class="border"] div {
+    margin: 5px;
+  }
 }
