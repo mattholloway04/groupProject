@@ -47,10 +47,6 @@ a {
 div {
   color: black;
   font-size: 20px;
-<<<<<<< HEAD
-
-=======
->>>>>>> cfe34839f82b886cfb3729fbe52d118cb1d7ee8a
   border-radius: 20px;
 }
 div[class="border"] div {
