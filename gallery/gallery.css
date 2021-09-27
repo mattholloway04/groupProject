@@ -51,7 +51,7 @@ a {
 .border {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(6, 22rem);
+  grid-template-rows: repeat(4, 22rem) 25rem 30rem;
   grid-template-areas:
     '_blue bread stick bike fly'
     'boot chair computer hammer drill'
