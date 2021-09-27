@@ -153,7 +153,7 @@ img {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 479px) {
   .border {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
