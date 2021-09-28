@@ -60,11 +60,15 @@ button {
 a {
   text-decoration: none;
 }
-
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 .border {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 22rem) 25rem 30rem;
+  grid-template-rows: repeat(4, 20rem) 1fr 1fr;
   grid-template-areas:
     '_blue bread stick bike fly'
     'boot chair computer hammer drill'
@@ -72,6 +76,10 @@ a {
     'bench toilet fan doll toilet_2'
     'wheels wheels wheels wheels wheels'
     'wheels wheels wheels wheels wheels';
+}
+video {
+  width: 100%;
+  height: 100%;
 }
 div {
   color: black;
